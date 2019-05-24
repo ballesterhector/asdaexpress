@@ -1,0 +1,12 @@
+Una instancia (en inglés, instance) es la particularización, 
+realización específica u ocurrencia de una determinada clase, 
+entidad (modelo entidad-relación) o prototipo.
+
+En los lenguajes de programación orientada a objetos un objeto es una instancia de una clase. 
+Esto es, un miembro de una clase que tiene atributos en lugar de variables. En un contexto del mundo real, 
+podríamos pensar en "Casa" como una clase y en un chalet como una instancia de esta 
+e incluso otro chalet u otro tipo de casa como puede ser un apartamento como otra instancia.
+
+assets = archivo
+
+.once = solo una vez
