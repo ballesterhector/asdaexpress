@@ -10,3 +10,8 @@ e incluso otro chalet u otro tipo de casa como puede ser un apartamento como otr
 assets = archivo
 
 .once = solo una vez
+inherits = herencia
+requests = peticiones
+router = enrutador 
+handlers  = manejadores
+desktop = escritorio 

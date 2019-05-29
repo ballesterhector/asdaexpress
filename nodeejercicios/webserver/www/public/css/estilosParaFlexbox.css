@@ -1,0 +1,112 @@
+/* GENERAL RESETS */
+
+* {
+    margin: 10px;
+    padding: 10px;
+	box-sizing:border-box;
+}
+
+body{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d5ebfb+0,82c2ed+0,ebf1f6+100 */
+	background: #d5ebfb; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d5ebfb 0%, #82c2ed 0%, #ebf1f6 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #d5ebfb 0%,#82c2ed 0%,#ebf1f6 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #d5ebfb 0%,#82c2ed 0%,#ebf1f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5ebfb', endColorstr='#ebf1f6',GradientType=0 ); /* IE6-9 */
+	height: 600px;
+}
+
+.contenedor{
+	background: #000;
+	display: flex;
+	flex-flow: column nowrap;
+	height: auto;
+}
+/*header*/
+	.header{
+		display: flex;
+		flex-flow: column nowrap;
+	}
+		.menu{
+			display: flex;
+			flex-flow: row nowrap;
+		}
+
+			.logo{
+				background: #fff;
+				flex: 1 1 auto;
+				align-items: center;
+			}
+
+			.navs{
+				background: #17ea1f;
+				display: flex;
+				flex: 6 1 auto;
+				
+			}
+
+			.navs ul li {
+				padding:  10px;
+			}
+
+				.menus{
+					background: #fff;
+					width: 100%;
+					display: flex;
+					flex-flow: row nowrap;
+					align-items: center;
+				}
+
+
+
+			.social{
+				background: #ea5455;
+				display: flex;
+				flex: 1 1 auto;
+				align-items: center;
+			}
+
+		.titulo{
+			background: #000;
+			display: flex;
+			flex-flow: row nowrap;
+		}
+
+			.titulos{
+				background: #ea5455;
+			}
+/*procesos*/
+	.procesos{
+		background: #000;
+		display: flex;
+		flex-flow: row nowrap;
+	}
+		.modulos{
+			background: #fff;
+			display: flex;
+			flex-flow: column nowrap;
+			flex: 1 1 auto;
+		}
+			.accordion{
+				background: transparent;
+				border: none;
+				color: crimson;
+			}
+
+		.tabla{
+			background: #ffd460;
+			flex: 7 1 auto;
+			font-size: 12px;
+		}
+
+			#dataTables{
+				border: none;
+			}
+
+	.footer{
+		background: #000;
+	}
+
+.pie{
+	background: #e6af2e;
+}

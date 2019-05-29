@@ -1,0 +1,11 @@
+{
+  "name": "ejercicios",
+  "version": "1.0.0",
+  "description": "para crear primer webserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Héctor Ballester",
+  "license": "ISC"
+}

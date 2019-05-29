@@ -1,0 +1,203 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {/* Old browsers */
+	background: #fff;
+	font: 12px Helvetica;
+   	padding: 20px;
+	color: #085ca5;
+}
+
+	header{
+		display: block;
+        height: 150px;
+        padding: 15px;
+        border: 1px solid #eebb55;
+        border-radius: 7pt;
+       	display: flex;
+		flex-flow: column;
+	}
+
+        header .logo {
+            font-size: 20px;
+            padding-right: 90px;
+        }
+
+        header .logo img {
+            width: 100px;
+            height: 50px;
+            vertical-align: top;
+            filter: alpha(opacity=45);
+            -moz-opacity: .45;
+            opacity: .45;
+        }
+
+        header .menu{
+            font-size: 12px;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        header .enlinea{
+            font-size: 12px;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: flex-end;
+            justify-content: space-between;
+        }
+
+        header .ayuda{
+            width: 180px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+    #main{
+        display: flex;
+        flex-flow: row;
+    }    
+
+        #main > nav {
+            line-height: 30px;
+            text-align: left;
+            text-decoration: none;
+            margin: 4px;
+            padding: 5px 0px 0px 5px;
+            border: 1px solid #eebb55;
+            border-radius: 7pt;
+            display: flex;
+            flex-flow: column;
+            flex: 1 1 8%;
+            order: 1;
+        } 
+
+        #main > .tabla {
+            line-height: 30px;
+            text-align: left;
+            text-decoration: none;
+            margin: 4px;
+            padding: 5px 0px 0px 0px;
+            border: 1px solid #eebb55;
+            border-radius: 7pt;
+            display: flex;
+            flex-flow: column;
+            flex: 6 1 50%;
+            order: 3;
+        } 
+
+        #main > .ladoA {
+            line-height: 30px;
+            text-align: left;
+            text-decoration: none;
+            margin: 4px;
+            padding: 5px 4px 0px 4px;
+            border: 1px solid #eebb55;
+            border-radius: 7pt;
+            display: flex;
+            flex-flow: column;
+            flex: 4 1 40%;
+            order: 2;
+        } 
+
+            #main select{
+                width: 140px;
+                padding: 0px;
+            }
+
+            #main  .rubrobtn{
+                margin-left: 10px;
+                background: #fff;
+                outline: none;
+                border-radius:10px;
+            }
+
+            #main  .rubrobtn i{
+                width: 25px;
+            }
+
+            #main  .rubrobtn:hover{
+                background: #05c15c;
+            }
+
+            #main .tamano{
+                width: 180px;
+            }
+
+            #main .tamano2{
+                width: 120px;
+            }
+
+            #main .tamano3{
+                width: 80px;
+            }
+
+
+            #main .ladoA .factura .facturaA {
+                padding: 4px;
+                width: 100%;
+                display: flex;
+                flex-flow: row nowrap;
+            }    
+
+            #main .ladoA .compras {
+                padding: 4px;
+                width: 100%;
+                display: flex;
+                flex-flow: row wrap;
+            }
+
+            #main .ladoA .comprasB, .comprasG {
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+            }
+
+            #main .ladoA .comprasE {
+                padding: 40px 0px 0px 90px;
+                display: flex;
+                flex-flow: column;
+            }
+
+            #main .ladoA .comprasF {
+                width: 100%;
+                padding: 4px 0px 0px 0px;
+                display: flex;
+                flex-flow: column;
+            }
+
+
+    footer {
+		display: block;
+        padding: 15px;
+        border: 1px solid #eebb55;
+        border-radius: 7pt;
+       	display: flex;
+		flex-flow: column;
+	}
+
+        footer script{
+            text-align: center;
+        }
+	
+    .respuesta{
+		font-size: 28px;
+		color: brown;
+		padding: 10px;
+	}
+
+	
+
+   
+    /* Too narrow to support three columns */
+    @media all and (max-width: 640px) {
+        header{
+           height: auto;
+        }
+        
+       
+        
+        
+    }
